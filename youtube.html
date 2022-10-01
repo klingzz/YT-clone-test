@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Styles/general.css" />
+    <link rel="stylesheet" href="Styles/header.css" />
+    <link rel="stylesheet" href="Styles/video.css" />
+    <link rel="stylesheet" href="Styles/sidebar.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img
+          class="hamburger-menu"
+          src="Icons/hamburger-menu.svg"
+          alt="Hamburger menu"
+        />
+        <img class="youtube-logo" src="Icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="Icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img
+            class="voice-search-icon"
+            src="Icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="Icons/upload.svg" alt="upload button" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img
+            class="youtube-apps-icon"
+            src="Icons/youtube-apps.svg"
+            alt="defunct youtube apps button"
+          />
+          <div class="tooltip">Check out YouTube Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img
+            class="notifications-icon"
+            src="Icons/notifications.svg"
+            alt="notifications button"
+          />
+          <div class="tooltip">See Notifications</div>
+          <div class="notifications-count">3</div>
+        </div>
+
+        <img
+          class="current-user-picture"
+          src="Images/SneakyTurtle.png"
+          alt="SneakyTurtle Logo"
+        />
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="Icons/home.svg" alt="Home Button" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Icons/explore.svg" alt="Explore Button" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Icons/subscriptions.svg" alt="Subscriptions Button" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Icons/originals.svg" alt="Originals Button" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Icons/youtube-music.svg" alt="Youtube Music Button" />
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="Icons/library.svg" alt="Library Button" />
+        <div>Library</div>
+      </div>
+    </div>
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=EhKcuJX6-rY">
+            <img
+              class="thumbnail"
+              src="Images/ytt_domekeeper.jpg"
+              alt="Photo of Max Knabe with open mouth"
+            />
+          </a>
+          <div class="video-time">36:48</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/HandOfLive">
+              <img
+                class="profile-picture"
+                src="Images/hob_uncut.jpg"
+                alt="hob_uncut_profilbild"
+              />
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=EhKcuJX6-rY">
+              <p class="video-title">
+                Dieses Indie-Juwel kommt bald! | Dome Keeper
+              </p>
+            </a>
+            <p class="video-author">HandOfUncut</p>
+            <p class="video-stats">187k views &#183; 3 days ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=V2Z5vNhCWzY">
+            <img
+              class="thumbnail"
+              src="Images/ytt_thehunter.jpg"
+              alt="Peter mit Zunge raus"
+            />
+          </a>
+          <div class="video-time">31:45</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/pietsmiet">
+              <img
+                class="profile-picture"
+                src="Images/pietsmiet_logo.jpg"
+                alt="hob_uncut_profilbild"
+              />
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=V2Z5vNhCWzY">
+              <p class="video-title">PIET RÄUMT AB! | thehunter</p>
+            </a>
+            <p class="video-author">PietSmiet</p>
+            <p class="video-stats">101k views &#183; 5 days ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">
+            <img
+              class="thumbnail"
+              src="Images/ytt_lofi.jpg"
+              alt="lofi girl working as diligently as ever"
+            />
+          </a>
+          <div class="video-time-live">LIVE</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/LofiGirl">
+              <img
+                class="profile-picture"
+                src="Images/lofi-girl_profile.jpg"
+                alt="hob_uncut_profilbild"
+              />
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">
+              <p class="video-title">lofi hip-hop beats to relax/study to</p>
+            </a>
+            <p class="video-author">lofi girl</p>
+            <p class="video-stats">273k watching</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=oN_55Da3tkc&t=23s">
+            <img
+              class="thumbnail"
+              src="Images/ytt_itsallhere.jpg"
+              alt="Photo of alleged RTX 40-Series Designs"
+            />
+          </a>
+          <div class="video-time">7:16</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/GamerMeld">
+              <img
+                class="profile-picture"
+                src="Images/gamer_meld_logo.jpg"
+                alt="hob_uncut_profilbild"
+              />
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=oN_55Da3tkc&t=23s">
+              <p class="video-title">
+                RTX 4080 12GB, 4080 16GB, 4090 - IT'S ALL HERE!
+              </p>
+            </a>
+            <p class="video-author">Gamer Meld</p>
+            <p class="video-stats">83k views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=AOdp09SYhCc">
+            <img
+              class="thumbnail"
+              src="Images/ytt_meetmysister.jpg"
+              alt="Linus Sebastian with his sister"
+            />
+          </a>
+          <div class="video-time">17:42</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/LinusTechTips">
+              <img
+                class="profile-picture"
+                src="Images/ltt_logo.jpg"
+                alt="hob_uncut_profilbild"
+              />
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=AOdp09SYhCc">
+              <p class="video-title">This Is So Embarassing!</p>
+            </a>
+            <p class="video-author">Linus Tech Tips</p>
+            <p class="video-stats">1.7M views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=GDzcmfH8yxw">
+            <img
+              class="thumbnail"
+              src="Images/ytt_waffenspiel.jpg"
+              alt="Jay wieder richtig hart am campen"
+            />
+          </a>
+          <div class="video-time">19:51</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/pietsmiet">
+              <img
+                class="profile-picture"
+                src="Images/pietsmiet_logo.jpg"
+                alt="hob_uncut_profilbild"
+              />
+            </a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=GDzcmfH8yxw">
+              <p class="video-title">
+                Wie oft kann Jay in EINEM Video CAMPEN? | COD Waffenspiel
+              </p>
+            </a>
+            <p class="video-author">PietSmiet</p>
+            <p class="video-stats">75k views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
